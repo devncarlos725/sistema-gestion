@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sistema de Gestión - MVP
 
-## Getting Started
+Sistema integral de gestión diseñado para empresas de producción, empaquetado y logística (Distribución de condimentos y afines). 
 
-First, run the development server:
+## 🚀 Características
+- **Autenticación Segura:** Control de acceso con Supabase Auth.
+- **Diseño Mobile-First:** Interfaz optimizada para uso en depósitos y camiones.
+- **Módulos planeados:** Stock de insumos, Producción, Ventas y Logística de Reparto.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tecnologías
+- **Framework:** [Next.js 15+](https://nextjs.org/)
+- **Base de Datos & Auth:** [Supabase](https://supabase.com/)
+- **Estilos:** Tailwind CSS
+- **Iconos:** Lucide React
+- **IDE:** Cursor (AI Powered)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚙️ Instalación
+1. Clonar el repositorio.
+2. Ejecutar `npm install`.
+3. Configurar las variables de entorno en `.env.local`.
+4. Correr el modo desarrollo con `npm run dev`.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
